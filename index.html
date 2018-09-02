@@ -7,27 +7,42 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    .<!-- Nav tabs -->
-    <ul class="nav nav-tabs|pills" id="myId">
-        <li class="nav-item">
-            <a href="#tab1Id" class="nav-link active">Active</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#tab2Id">Action</a>
-                <a class="dropdown-item" href="#tab3Id">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#tab4Id">Action</a>
+    <!-- Nav tabs -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-        </li>
-        <li class="nav-item">
-            <a href="#tab5Id" class="nav-link">Another link</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link disabled">Disabled</a>
-        </li>
-    </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
     
     <!-- Tab panes -->
     <div class="tab-content">
@@ -75,6 +90,57 @@
             I'm a simple h1
         </h1>
     </div>
+    
+    <section id="first-section" style="background-color: aqua;" class="py-5">
+        <div class="py-5">
+        <h3>section 1 </h3>
+        <h4>hossam magdy</h4>
+            </div>
+     
+    
+    </section>
+    
+    
+    <section id="second-section" style="background-color: #ccc;" class="py-5">
+            <div class="container">
+                <h1>Mostafa Nasser</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="first-task text-center">
+                            <img src="images/Bill%20Gates.jpg" class="img-fluid ">
+                            <h1>Bill Gates</h1>
+                            <p style="background-color:white" class="px-2">
+                                About Bill
+                                Married to:	Melinda French Gates
+                                Children:	Three
+                                Career
+                                highlights:	Microsoft,
+                                Bill & Melinda Gates
+                                Foundation
+                                1955—
+                                Born
+                                Seattle, WA.1973
+                                Entered Harvard
+                                University. 1967
+                                Enrolled at Lakeside 
+                                School. First used computer. 1968
+                                Began programming
+                                with Paul Allen in the computer center.
+                                Bill Gates is a technologist, business leader, and philanthropist.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="first-task text-center">
+                            <img src="images/Steve%20jobs.jpg" class="img-fluid ">
+                            <h1>Steve Jobs</h1>
+                            <p style="background-color:white" class="px-2">
+                                Steve Jobs (Feb 24, 1955 – October 5, 2011) was an American businessman and inventor who played a key role in the success of Apple computers and the development of revolutionary new technology such as the iPod, iPad and MacBook.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     
     
     <script src="main.js"></script>
